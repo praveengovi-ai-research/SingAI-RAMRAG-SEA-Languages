@@ -1,0 +1,21 @@
+[project]
+name = "singai-ramrag"
+version = "0.1.0"
+description = "SingAI-RAMRAG: Risk-Aware Multilingual RAG for SMB Customer Care"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "datasets",
+    "faiss-cpu",
+    "pandas",
+    "numpy",
+    "pyarrow",
+    "matplotlib",
+    "tqdm",
+    "openai",
+    "phoenix_ai @ git+https://github.com/Praveengovianalytics/Phoenix_ai.git@test"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

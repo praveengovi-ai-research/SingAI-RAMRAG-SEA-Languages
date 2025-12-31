@@ -1,0 +1,10 @@
+datasets
+faiss-cpu
+pandas
+numpy
+pyarrow
+matplotlib
+tqdm
+openai
+# Phoenix AI from git
+phoenix_ai @ git+https://github.com/Praveengovianalytics/Phoenix_ai.git@test
